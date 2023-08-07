@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Set the maximum width and height of the carousel */
+/* Set the carousel container to be responsive */
+
+
+
+
+.hero {
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(249, 247, 247);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    margin: 0;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.about {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   */
+  /* Set padding for the entire gallery section */
+  .gallery {
+    padding: 200px;
+  }
+  
+  /* Create a container to hold the cards and apply flexbox for responsive layout */
+  .cont {
+    display: flex;
+
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style each card */
+  .card {
+    /* margin: 30px 10px; Adjust the width of the cards for responsiveness */
+    /* margin-bottom: 20px; */
+ /* overflow: hidden; */
+    padding: 0px auto;
+    margin: auto;
+  }
+  .cf{
+    height: 300px;
+    width: auto;
+    overflow: hidden;
+  }
+  
+  /* Center the card image */
+  .card-img-top {
+    display: block; 
+    margin: 0 auto;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+  
+    
+    /* height: 300px; */
+
+  }
+  
+  /* Add some spacing between the card title and text */
+  .card-title {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the card text */
+  .card-text {
+    font-size: 14px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    /* Adjust the card width for smaller screens */
+    .card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+.contact {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.card-body{
+  min-height: 250px;
+}
